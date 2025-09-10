@@ -5,8 +5,10 @@
 
 sum = 0
 
-for tal in range(1, 100):
+for tal in range(1, 101):
 # tallet 101 anvendes for at skrive et tal efter det sidste jeg ønsker i rækken. På denne måde så er rangen alle tal fra 1 til 100.
     sum = int(sum) + int(tal)    
     
 print("Summen er:", sum)
+
+# Summen er: 5050
